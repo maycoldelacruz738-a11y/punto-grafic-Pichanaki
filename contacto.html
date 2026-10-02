@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Punto Grafic JyD</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="pagina-interior">
+
+    <header class="encabezado">
+
+        <nav class="menu">
+
+            <a href="index.html" class="logo" aria-label="Punto Grafic JyD, inicio">
+                <img class="logo-imagen" src="logo-punto-grafic.png" alt="Logo de Punto Grafic JyD" width="64" height="64">
+                <span class="logo-texto"><span class="marca-cian">Punto</span> <span class="marca-magenta">Grafic</span> <span class="marca-amarillo">JyD</span></span>
+            </a>
+
+            <ul class="menu-links" id="menu-links">
+
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="videos.html">Videos</a>
+                </li>
+
+                <li>
+                    <a href="contenido.html">Contenido</a>
+                </li>
+
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="contacto.html" aria-current="page">Contacto</a>
+                </li>
+
+            </ul>
+
+            <button class="menu-btn" type="button" aria-label="Abrir menú" aria-controls="menu-links" aria-expanded="false" onclick="mostrarMenu()">
+                ☰
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main><section id="contacto" class="seccion contacto">
+
+            <div class="contenedor">
+
+                <p class="subtitulo">
+                    ESCRÍBENOS
+                </p>
+
+                <h2>
+                    Contacto
+                </h2>
+
+                <p class="descripcion">
+                    ¿Quieres comunicarte con nosotros?
+                </p>
+
+
+                <form>
+
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        required>
+
+                    <input
+                        type="email"
+                        placeholder="Correo electrónico"
+                        required>
+
+                    <textarea
+                        placeholder="Escribe tu mensaje"
+                        rows="5"
+                        required></textarea>
+
+                    <button
+                        type="submit"
+                        class="boton">
+
+                        Enviar mensaje
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section></main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Punto Grafic JyD. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
